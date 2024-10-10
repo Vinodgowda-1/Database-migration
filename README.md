@@ -1,6 +1,6 @@
 # Database Migration - MS SQL Server to PostgreSQL
 
-This project is a C# Console Application that facilitates the migration of data from an MS SQL Server database to a PostgreSQL database. The tool automates the process of transferring data, schema, and optionally other database objects (like indexes and constraints) from MS SQL Server to PostgreSQL.
+This project is a C# Console Application that facilitates the migration of data from an MS SQL Server database to a PostgreSQL database. The tool automates the process of transferring data from MS SQL Server to PostgreSQL.
 
 ## Features
 
@@ -13,8 +13,7 @@ This project is a C# Console Application that facilitates the migration of data 
 ## Prerequisites
 
 - [.NET Core SDK](https://dotnet.microsoft.com/download) (v6.0 or later)
-- MS SQL Server (source database)
-- PostgreSQL (destination database)
+- Nuget Packages - Npgsql and System.Data.SqlClient
 
 ## Getting Started
 
